@@ -15,6 +15,7 @@ namespace SOLID_CSharp._1___SRP.SRP___Problema
         public string Email { get; set; }
         public DateTime DataNascimento { get; set; }
 
+        //Metodo para AdicionarUsuario
         public string AdicinarUsuario()
         {
             if (!Email.Contains("@"))
