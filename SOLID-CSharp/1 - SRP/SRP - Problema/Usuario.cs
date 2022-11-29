@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
-//using System.Data.SqlClient;
 using System.Net.Mail;
 
 namespace SOLID_CSharp._1___SRP.SRP___Problema
@@ -56,7 +55,6 @@ namespace SOLID_CSharp._1___SRP.SRP___Problema
             client.Send(mail);
 
             return "Usuário cadastrado com sucesso!";
-        }
         }
 
     }
